@@ -31,7 +31,7 @@ from math import comb
 
 
 def pascal(row: int) -> list:
-    return [comb(n, k) for k in range(row + 1)]
+    return [comb(row, k) for k in range(row + 1)]
 
 
 n = int(input())
